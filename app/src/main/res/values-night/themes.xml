@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Launchpad" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="preferenceTheme">@style/ThemeOverlay.App.Preference</item>
+    </style>
+
+    <style name="Theme.Launchpad.SearchBar">
+        <item name="android:layout_margin">@dimen/large_spacing</item>
+        <item name="cardCornerRadius">@dimen/search_bar_radius</item>
+        <item name="cardBackgroundColor">@color/primary_dark</item>
+    </style>
+
+</resources>

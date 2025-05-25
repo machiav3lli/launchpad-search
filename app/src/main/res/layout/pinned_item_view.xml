@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    style="@style/Theme.Launchpad.Pinned"
+    >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/result_image_geometry"
+            android:layout_height="@dimen/result_image_geometry"
+            android:src="@drawable/ic_launcher_background"
+            android:padding="@dimen/result_image_padding"
+            android:scaleType="centerCrop"
+            android:id="@+id/pinned_icon"
+
+            android:layout_gravity="center"
+        />
+
+</androidx.cardview.widget.CardView>

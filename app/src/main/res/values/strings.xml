@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name" translatable="false">Launchpad</string>
+
+    <string name="shortcut_short_label">Launchpad Search</string>
+    <string name="shortcut_long_label">Launchpad Search</string>
+    <string name="shortcut_disabled_label">Launchpad shortcut is disabled</string>
+
+    <string name="search_bar_input_text">Search here…</string>
+
+    <string name="search_action_settings">Settings</string>
+    <string name="search_action_close">Close</string>
+
+    <string name="home_banner_text" translatable="false">launchpad.</string>
+    <string name="home_banner_slogan">do more, by doing less</string>
+
+    <string name="home_action_contacts_perm">ALLOW CONTACTS PERMISSION</string>
+    <string name="home_contacts_perm_summary">For contact plugin to work</string>
+    <string name="home_contacts_toast">Permission already granted</string>
+
+    <string name="home_alter_qs_tile">Add QS Tile</string>
+    <string name="home_alter_shortcut">Add shortcut</string>
+    <string name="home_alter_summary">or if you don\'t wanna replace your assistant</string>
+
+    <string name="home_action_assist">SWITCH ASSISTANT</string>
+    <string name="home_action_assist_ENABLED">LAUNCHPAD IS ACTIVE</string>
+
+    <string name="home_assist_summary">Select Launchpad from the list of assistants</string>
+    <string name="home_assist_summary_ENABLED">Gesture Navigation: Swipe from the corner to invoke\nButton Navigation: Long press home to invoke\n</string>
+
+    <string name="settings_search_title">Search</string>
+
+    <string name="settings_clear_search">Clear search on launch</string>
+    <string name="settings_clear_search_summary">Input will be cleared on every launch</string>
+
+    <string name="settings_search_show_keyboard">Open keyboard on launch</string>
+    <string name="settings_search_show_keyboard_summary">Enabling this option will show the soft keyboard automatically</string>
+
+    <string name="settings_general_title">General</string>
+
+    <string name="settings_close_on_outclick_summary">Close the window on clicking outside Launchpad</string>
+    <string name="settings_close_on_outclick">Quick close</string>
+
+    <string name="settings_close_on_action">Close on action</string>
+    <string name="settings_close_on_action_summary">Close the window on any action performed</string>
+
+    <string name="settings_top_result_default">Submit opens top result</string>
+    <string name="settings_top_result_default_summary">The top result will be the opened when pressing Enter or the \'Search button\' in your keyboard</string>
+
+    <string name="settings_layout_title">Layout</string>
+
+    <string name="settings_layout_blur">Blur behind</string>
+    <string name="settings_layout_blur_summary">Enable blur behind window on supported devices</string>
+
+    <string name="settings_layout_bottom">Bottom layout</string>
+    <string name="settings_layout_bottom_summary">EXPERIMENTAL\n\nInstead of a floating window placed at the top, it opens a bottom sheet like menu similar to other assistants.</string>
+
+    <string name="settings_plugins_title">Plugins</string>
+    <string name="settings_plugins_enabled">Enabled Plugins</string>
+    <string name="settings_plugins_enabled_summary">Initialize and use plugins that you want</string>
+
+    <string name="settings_plugin_search">Web Search: Engine</string>
+    <string name="settings_plugin_search_summary">Choose the search engine you want to use for web search</string>
+
+    <string name="settings_plugin_search_query">Web Search : Custom query URL</string>
+    <string name="settings_plugin_search_query_summary">If Engine is set to custom, this query url will be passed.\nInclude a \'\%s\' where you want the search query to be replaced.</string>
+
+    <!-- FUNCTIONAL -->
+
+    <string name="general_warning_pinned_shortcut">Your launcher doesn\'t support pinned shortcuts</string>
+    <string name="general_warning_qs_tile">Quick Tile adding requires Android 13+, try adding it manually</string>
+    <string name="general_warning_qs_tile_exists">Tile already exists</string>
+
+    <string name="general_warning_assistant_service">Launchpad is already running</string>
+
+    <string name="plugin_search_result">Search %s for %s</string>
+
+    <string name="plugin_unit_conversion_result">%.3f %s</string>
+    <string name="plugin_unit_conversion_result_full">%f %s</string>
+    <string name="plugin_unit_conversion_result_units">%s to %s</string>
+
+    <string name="plugin_definition_result_title">Word alternative for %s</string>
+    <string name="plugin_definition_result">
+        Synonyms : %s
+
+        Antonyms : %s
+    </string>
+
+
+
+    <string name="plugin_shortcuts_query">Shortcut Action from %s</string>
+
+    <string name="plugin_definition_easter_egg">You know what you\'re doing</string>
+
+    <string name="search_engine_custom">the web</string>
+    <string translatable="false" name="search_google_query">Google|https://www.google.com/search?q=%s</string>
+    <string translatable="false" name="search_duckduckgo_query">DuckDuckGo|https://duckduckgo.com/?q=%s</string>
+    <string translatable="false" name="search_bing_query">Bing|https://www.bing.com/search?q=%s</string>
+
+    <!--  INFO  -->
+    <string name="contact_mail_template_subject">Launchpad Search: Support</string>
+    <string name="contact_mail_template_body" formatted="true" >Expected Behaviour / Feature Request:\n\n\n
+Issue (if any):\n\n\n
+Version: %s
+    </string>
+    <string translatable="false" name="link_kofi">https://ko-fi.com/devrinth</string>
+    <string translatable="false" name="link_privacy">https://devrinth-studio.web.app/privacy.html</string>
+    <string translatable="false" name="link_website">https://devrinth-studio.web.app/</string>
+    <string translatable="false" name="link_mail">devrinth.studio@gmail.com</string>
+
+
+
+
+</resources>

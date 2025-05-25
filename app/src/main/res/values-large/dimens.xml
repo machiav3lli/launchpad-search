@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="parent_layout_padding_top">72dp</dimen>
+    <item name="parent_layout_space_ratio" format="float" type="integer">0.2</item>
+
+    <dimen name="search_result_holder_height">300dp</dimen>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="default_spacing">2dp</dimen>
+    <dimen name="large_spacing">4dp</dimen>
+    <dimen name="extra_spacing">10dp</dimen>
+    <dimen name="ginormous_spacing">16dp</dimen>
+
+    <dimen name="parent_layout_max">450dp</dimen>
+    <dimen name="parent_layout_padding_top">32dp</dimen>
+    <item name="parent_layout_space_ratio" format="float" type="integer">0.005</item>
+
+    <dimen name="search_layout_radius">20dp</dimen>
+    <dimen name="search_action_button_geometry">50dp</dimen>
+
+    <dimen name="search_bar_height">50dp</dimen>
+    <dimen name="search_bar_input_padding">20dp</dimen>
+    <dimen name="search_bar_radius">12dp</dimen>
+
+    <dimen name="search_suggestions_holder_height">60dp</dimen>
+
+    <dimen name="search_suggestion_margin">4dp</dimen>
+    <dimen name="search_suggestion_padding">8dp</dimen>
+    <dimen name="search_suggestion_radius">8dp</dimen>
+
+    <dimen name="search_result_holder_height">250dp</dimen>
+
+    <dimen name="result_item_height">50dp</dimen>
+    <dimen name="result_item_margin">10dp</dimen>
+    <dimen name="result_item_alternate_margin_top">5dp</dimen>
+    <dimen name="result_item_radius">12dp</dimen>
+
+    <dimen name="result_main_font">16sp</dimen>
+    <dimen name="result_extra_font">12sp</dimen>
+
+    <dimen name="result_image_geometry">@dimen/result_item_height</dimen>
+    <dimen name="result_image_padding">10dp</dimen>
+
+    <dimen name="pinned_holder_radius">16dp</dimen>
+    <dimen name="pinned_holder_height">60dp</dimen>
+
+    <dimen name="pinned_item_radius">16dp</dimen>
+    <dimen name="pinned_item_image_geometry">50dp</dimen>
+
+    <dimen name="home_banner_height">150dp</dimen>
+    <dimen name="home_banner_text">20sp</dimen>
+
+    <dimen name="home_action_text">16sp</dimen>
+    <dimen name="home_action_card_height">80dp</dimen>
+
+</resources>

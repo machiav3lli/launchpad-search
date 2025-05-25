@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="available_plugins">
+        <item>Search Suggestions</item>
+        <item>Calculator</item>
+        <item>Web Search</item>
+        <item>Unit Conversion</item>
+        <item>Apps</item>
+        <item>Contacts</item>
+        <item>Settings</item>
+        <item>Shortcuts</item>
+        <item>Files</item>
+<!--        <item>Word Definitions ( heavy )</item>-->
+    </string-array>
+
+    <string-array translatable="false" name="available_plugins_id">
+        <item>int-search</item>
+        <item>calc</item>
+        <item>websearch</item>
+        <item>units</item>
+        <item>apps</item>
+        <item>contacts</item>
+        <item>settings</item>
+        <item>shortcuts</item>
+        <item>files</item>
+<!--        <item>definition</item>-->
+    </string-array>
+
+
+    <string-array translatable="false" name="available_web_search">
+        <item>Google</item>
+        <item>DuckDuckGo</item>
+        <item>Bing</item>
+        <item>Custom</item>
+    </string-array>
+
+    <string-array translatable="false" name="available_web_search_query">
+        <item>@string/search_google_query</item>
+        <item>@string/search_duckduckgo_query</item>
+        <item>@string/search_bing_query</item>
+        <item>custom</item>
+    </string-array>
+
+    <string-array translatable="false" name="empty_array"/>
+
+</resources>

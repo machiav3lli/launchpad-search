@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<voice-interaction-service
+    android:settingsActivity="com.devrinth.launchpad.activities.SettingsActivity"
+    android:supportsAssist="true"
+    android:recognitionService=""
+    android:sessionService="com.devrinth.launchpad.services.LaunchpadSessionService"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

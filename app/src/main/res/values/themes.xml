@@ -1,0 +1,91 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Transparent" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.Launchpad" parent="Theme.Material3.Light.NoActionBar">
+        <item name="preferenceTheme">@style/ThemeOverlay.App.Preference</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Preference" parent="PreferenceThemeOverlay">
+        <item name="switchPreferenceCompatStyle">@style/App.Preference.SwitchPreference</item>
+    </style>
+
+    <style name="App.Preference.SwitchPreference" parent="Preference.SwitchPreference.Material">
+        <item name="android:widgetLayout">@layout/view_preference_switch</item>
+    </style>
+
+    <style name="Theme.Launchpad.Search" parent="Theme.Launchpad">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:minWidth">@dimen/parent_layout_max</item>
+        <item name="android:layout_margin">@dimen/extra_spacing</item>
+        <item name="cardCornerRadius">@dimen/search_layout_radius</item>
+        <item name="cardBackgroundColor">@color/primary_background</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="Theme.Launchpad.Bottom" parent="Theme.Launchpad.Search">
+    </style>
+
+    <style name="Theme.Launchpad.Search.Button" parent="Theme.Launchpad.Search">
+    </style>
+
+    <style name="Theme.Launchpad.SearchBar">
+        <item name="android:layout_margin">@dimen/large_spacing</item>
+        <item name="cardCornerRadius">@dimen/search_bar_radius</item>
+        <item name="cardBackgroundColor">@color/primary_dark</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="Theme.Launchpad.SearchSuggestion">
+        <item name="cardBackgroundColor">@color/primary_card_accent</item>
+        <item name="cardElevation">0dp</item>
+        <item name="contentPadding">@dimen/search_suggestion_padding</item>
+        <item name="cardCornerRadius">@dimen/search_suggestion_radius</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_marginRight">@dimen/search_suggestion_margin</item>
+        <item name="android:foreground">?android:attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="Theme.Launchpad.Search.Result">
+        <item name="android:foreground">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:layout_margin">@dimen/large_spacing</item>
+        <item name="android:layout_marginBottom">@dimen/default_spacing</item>
+        <item name="cardCornerRadius">@dimen/result_item_radius</item>
+        <item name="cardBackgroundColor">@color/primary_card_accent</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="Theme.Launchpad.Pinned">
+        <item name="android:foreground">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:layout_marginRight">@dimen/extra_spacing</item>
+        <item name="cardCornerRadius">@dimen/pinned_item_radius</item>
+        <item name="cardBackgroundColor">@color/primary_card_accent</item>
+
+    </style>
+
+    <style name="Theme.Launchpad.PluginCard">
+        <item name="android:layout_marginHorizontal">@dimen/extra_spacing</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="Theme.Launchpad.ButtonCard">
+        <item name="android:layout_height">@dimen/home_action_card_height</item>
+        <item name="android:padding">@dimen/ginormous_spacing</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="Theme.Launchpad.ButtonCard.Enabled">
+        <item name="android:textColor">@color/material_dynamic_primary60</item>
+    </style>
+
+    <style name="Theme.Launchpad.ButtonCard.Primary" parent="Theme.Launchpad.ButtonCard">
+    </style>
+
+</resources>
