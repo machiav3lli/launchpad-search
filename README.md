@@ -1,12 +1,12 @@
 
 # Launchpad Search - Shortcuts
-<center><br>
-<img src="images/icon.png" alt="Launchpad Icon" width="96" height="96"><br>v1.3.0<br>A spotlight search alternative for android, but better
-</center>
 <br>
 <p align="center">
+    <img src="images/icon.png" alt="Launchpad Icon" width="96" height="96"><br>
+    <i>v1.3.0</i><br>
+    A spotlight search alternative for android, but better<br><br>
     <a href="https://github.com/jaxparrow07/launchpad-search/releases/latest">
-        <img src="https://img.shields.io/github/v/release/jaxparrow07/launchpad-search?label=Download%20Latest%20Release&style=for-the-badge&logo=github" alt="Download Latest Release">
+        <img src="https://img.shields.io/github/downloads/jaxparrow07/launchpad-search/latest/total?style=for-the-badge" alt="Download Latest Release">
     </a>
 </p>
 
