@@ -7,6 +7,9 @@
     A spotlight search alternative for android, but better<br><br>
     <a href="https://github.com/jaxparrow07/launchpad-search/releases/latest">
         <img src="https://img.shields.io/github/downloads/jaxparrow07/launchpad-search/latest/total?style=for-the-badge" alt="Download Latest Release">
+    </a>      
+    <a href="https://kofi.com/devrinth">
+        <img src="https://img.shields.io/badge/Buy_me_a_Kofi-donate-blue?style=for-the-badge&logo=kofi&color=%23FF6433" >
     </a>
 </p>
 
