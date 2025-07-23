@@ -40,8 +40,6 @@ class SearchManager(
     private var pluginList = arrayListOf<SearchPlugin>()
     private var pluginsMap = mapOf(
 
-        "int-link-handler" to UrlHandlerPlugin(mContext),
-
         "int-search" to SearchSuggestionsPlugin(mContext),
 
         "apps" to LauncherPlugin(mContext),
@@ -51,10 +49,6 @@ class SearchManager(
         "units" to UnitConversionPlugin(mContext),
         "settings" to SettingsPlugin(mContext),
         "shortcuts" to ShortcutsPlugin(mContext),
-//        "definition" to DefinitionPlugin(mContext),
-//        "fdroid" to FDroidPlugin(mContext)
-//        "files" to FileSearchPlugin(mContext),
-
 
     )
 
@@ -137,11 +131,11 @@ class SearchManager(
         pluginList = arrayListOf()
         CoroutineScope(Dispatchers.Main).launch {
             pluginsMap.forEach { plugin ->
-                val isInternalPlugin = plugin.key.contains("int-")
+                val isInternalPlugin = plugin.key.contains("req-")
 
                 if (enabledPlugins!!.contains(plugin.key) || enabledPlugins!!.isEmpty() || (isInternalPlugin)){
                     try {
-                        // Load the plugin into memory if it's enabled by the userlist
+
                         plugin.value.pluginInit()
 
                     } catch (e : Exception) {
